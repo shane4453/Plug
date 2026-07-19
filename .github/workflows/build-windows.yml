@@ -19,7 +19,7 @@ jobs:
 
       # 2) CMake configure — Visual Studio 2022 / x64 타깃
       - name: Configure
-        run: cmake -B build -G "Visual Studio 17 2022" -A x64
+        run: cmake -B build
 
       # 3) Release 빌드
       - name: Build
